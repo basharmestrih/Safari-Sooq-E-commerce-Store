@@ -1,0 +1,98 @@
+const Map<String, String> hiIN = {
+  // General
+  'app_name': 'सफारी सूक',
+  'welcome_text':
+      'सफारी सूक स्टोर में आपका स्वागत है\nस्मार्ट शॉपिंग से जुड़ने के लिए अभी रजिस्टर करें',
+  'new_account': 'नया खाता बनाएं',
+  'start_journey': 'सफारी सूक के साथ अपनी यात्रा शुरू करें',
+  "info_data": "व्यक्तिगत जानकारी",
+  "contact_info": "संपर्क जानकारी",
+  "security_info": "अपने खाते को सुरक्षित करें",
+  "additional_data": "अतिरिक्त जानकारी",
+  "email": "ईमेल",
+  "username": "उपयोगकर्ता नाम",
+  "first_name": "पहला नाम",
+  "last_name": "अंतिम नाम",
+  "mobile_phone": "मोबाइल नंबर",
+  "password": "पासवर्ड",
+  "confirm_password": "पासवर्ड की पुष्टि करें",
+  "gender": "लिंग",
+  "select_gender": "अपना लिंग चुनें",
+  "gender_male": "पुरुष",
+  "gender_female": "महिला",
+  "birthdate": "जन्म तिथि",
+  "country": "देश",
+  "select_birthdate": "अपनी जन्म तिथि चुनें",
+  'remember_me': 'मुझे याद रखें',
+  'forgot_password': 'पासवर्ड भूल गए?',
+  'dont_have_account_1': 'क्या आपका खाता नहीं है?',
+  'dont_have_account_2': 'नया खाता बनाएं',
+  'signup': 'साइन अप करें',
+  'login': 'लॉगिन करें',
+  'guest': 'अतिथि के रूप में प्रवेश करें',
+  'next': 'आगे',
+
+  // Forget Password
+  'forget_password': 'पासवर्ड भूल गए',
+  'forget_password_helper':
+      'अपना पासवर्ड रीसेट करने के लिए अपना फ़ोन नंबर दर्ज करें।',
+  'email_or_username': 'ईमेल या उपयोगकर्ता नाम',
+  'submit': 'फ़ोन नंबर पर कोड भेजें',
+  "sending_code": "कोड भेजा जा रहा है...",
+  'back_to_login': 'लॉगिन पेज पर वापस जाएं',
+
+  // OTP Page
+  "verify_code": "कोड सत्यापित करें",
+  "verify_code_helper": "अपने फ़ोन नंबर पर भेजा गया 6 अंकों का कोड दर्ज करें",
+  "verify": "सत्यापित करें",
+  "verify_processing": "कोड सत्यापित किया जा रहा है...",
+  "resend_code": "कोड फिर से भेजें",
+  "resend_in": "@seconds सेकंड में फिर से भेजें",
+
+  // Reset Password
+  "reset_password": "पासवर्ड रीसेट करें",
+  "reset_password_description":
+      "लॉगिन पेज पर उपयोग के लिए नया पासवर्ड बनाएं",
+  "new_password": "नया पासवर्ड दर्ज करें",
+  "create_password": "पासवर्ड बनाएं",
+  "fill_all_fields": "कृपया सभी फ़ील्ड भरें",
+  "passwords_not_match": "पासवर्ड मेल नहीं खा रहे हैं",
+  "password_reset_success": "पासवर्ड सफलतापूर्वक रीसेट किया गया",
+  "password_rule_length": "कम से कम 8 अक्षर",
+  "password_rule_upper": "एक बड़े अक्षर को शामिल करें",
+  "password_rule_number": "एक संख्या शामिल करें",
+  "password_rule_special": "एक विशेष अक्षर शामिल करें",
+
+  // Error Messages
+  "username_required": "उपयोगकर्ता नाम आवश्यक है",
+  "username_max_50": "उपयोगकर्ता नाम अधिकतम 50 अक्षर का होना चाहिए",
+  "first_name_required": "पहला नाम आवश्यक है",
+  "first_name_min_3": "पहला नाम कम से कम 3 अक्षर का होना चाहिए",
+  "first_name_max_32": "पहला नाम अधिकतम 32 अक्षर का होना चाहिए",
+  "last_name_required": "अंतिम नाम आवश्यक है",
+  "last_name_min_3": "अंतिम नाम कम से कम 3 अक्षर का होना चाहिए",
+  "last_name_max_32": "अंतिम नाम अधिकतम 32 अक्षर का होना चाहिए",
+  "email_required": "ईमेल आवश्यक है",
+  "email_invalid": "ईमेल में @ और gmail.com होना चाहिए",
+  "mobile_required": "मोबाइल नंबर आवश्यक है",
+  "mobile_start_plus": "मोबाइल नंबर + से शुरू होना चाहिए",
+  "password_required": "पासवर्ड आवश्यक है",
+  "password_min_8": "पासवर्ड कम से कम 8 अक्षर का होना चाहिए",
+  "password_uppercase": "पासवर्ड में एक बड़ा अक्षर होना चाहिए",
+  "password_number": "पासवर्ड में एक संख्या होनी चाहिए",
+  "password_special": "पासवर्ड में एक विशेष अक्षर होना चाहिए",
+  "confirm_password_required": "पासवर्ड की पुष्टि आवश्यक है",
+  "gender_required": "लिंग आवश्यक है",
+  "gender_invalid": "लिंग 0 या 1 होना चाहिए",
+  "country_required": "देश आवश्यक है",
+  "country_invalid": "देश 0 या 1 होना चाहिए",
+  "error": "त्रुटि",
+  "check_fields": "कृपया फ़ील्ड की जाँच करें",
+
+  // Onboarding Features
+  'feature1_desc': 'विभिन्न उत्पादों और सेवाओं पर विशेष छूट का आनंद लें।',
+  'feature2_desc':
+      'आपके डेटा की सुरक्षा के साथ एक सुरक्षित और विश्वसनीय खरीदारी अनुभव।',
+  'feature3_desc':
+      'जो कुछ भी आपको चाहिए उसे जल्दी और आसानी से एक ही जगह पर खोजें।',
+};
