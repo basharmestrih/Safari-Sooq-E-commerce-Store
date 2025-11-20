@@ -18,7 +18,7 @@ This setup allows for a fast, reactive, and scalable app structure with minimal 
 ###  Tech Stack
 - **Flutter**
 - **GetX** 
-- **Other UI Widgets** (SlivarAppbar, Speedial)
+- **Other UI Widgets** (SliverAppbar, Speedial)
 - **Dart**
 
 ---
