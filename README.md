@@ -28,4 +28,4 @@ Actively under development and continuously improving.
 
 ---
 
-Enjoy exploring **Safari Sooq**! 🌍✨
+Enjoy exploring **Safari Sooq**!
