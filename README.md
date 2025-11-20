@@ -9,6 +9,7 @@ The app leverages **GetX** for:
 -  **State Management**
 -  **Dark Mode**
 -  **Custom Theming**
+-  **authentication**
 
 This setup allows for a fast, reactive, and scalable app structure with minimal boilerplate.
 
@@ -16,7 +17,7 @@ This setup allows for a fast, reactive, and scalable app structure with minimal 
 
 ###  Tech Stack
 - **Flutter**
-- **GetX** (state management, themes, localization, authentication)
+- **GetX** 
 - **Other UI Widgets** (SlivarAppbar, Speedial)
 - **Dart**
 
